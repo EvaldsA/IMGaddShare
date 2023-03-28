@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $fileType = $_FILES['image']['type'];
 
     // Define the target directory where the uploaded file will be stored
-    $targetDir = 'uploads/';
+    $target_dir = "IMGaddShare/images/";
     // Define the target path where the uploaded file will be stored
     $targetPath = $targetDir . $fileName;
 
